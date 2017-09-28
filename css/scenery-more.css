@@ -32,7 +32,7 @@
 }
 .index .scenery-address .scenery-addressx{
     height: 2.13rem;
-    color: #5a5a5a;
+    color: #333333;
     background-color: #FFFFFF;
     font-size: 0.37rem;
    /* margin-top: 0.27rem;*/
@@ -144,6 +144,127 @@
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-right: 0px;
     margin-left: 0px;
+}
+
+/*景区门票*/
+
+.index .menpiaobox{
+   /* width: 10rem;*/
+    height: 2.13rem;
+    border-top: 0.03rem solid #e3e5e5;
+
+}
+.index .menpiaobox .menpiaoboxl{
+    float: left;
+    width: 7rem;
+    height: 2.13rem;
+    padding-left: 0.54rem;
+}
+.index .menpiaobox .menpiaoboxl .piaolei{
+    height: 0.8rem;
+    line-height: 0.8rem;
+
+}
+.index .menpiaobox .menpiaoboxl .piaolei .piaolei1{
+    font-size: 0.38rem;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+.index .menpiaobox .menpiaoboxl .piaolei .piaolei2{
+
+    font-size: 0.35rem;
+    color: #5a5a5a;
+}
+.index .menpiaobox .menpiaoboxl .piaolei .piaolei3{
+    font-size: 0.38rem;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+
+.index .menpiaobox .menpiaoboxl .piao-money{
+    font-size: 0.48rem;
+    color: #f57d02;
+}
+.index .menpiaobox .menpiaoboxl .piao-oldmoney{
+    font-size: 0.32rem;
+    color: #b5b5b5;
+    text-decoration: line-through;
+}
+
+
+
+.index .menpiaobox .menpiaoboxr{
+    float: left;
+    height: 2.13rem;
+}
+.index .menpiaobox .menpiaoboxr a{
+    display: inline-block;
+    width: 1.34rem;
+    height: 0.67rem;
+    background-color: #f57d02;
+    text-align: center;
+    line-height: 0.67rem;
+    color: #ffffff;
+    font-size: 0.38rem;
+    font-weight: bold;
+    border-radius: 0.06rem;
+    margin-top: 0.67rem;
+    margin-left: 0.67rem;
+}
+
+/*订票须知*/
+.index .title{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-left: 0.54rem;
+    font-size: 0.35rem;
+    font-weight: bold;
+    color: #333333;
+}
+.index .yuzhimore {
+    padding-left:0.54rem;
+    padding-right:0.54rem;
+}
+.index .yuzhimore  p{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+}
+
+/*评论*/
+
+.pinglun{
+    border-top: 0.03rem solid #f2f2f2;
+    padding-left:0.54rem;
+    padding-right:0.54rem;
+}
+.pinglun .pingluntitle{
+    height: 1.07rem;
+    line-height: 1.07rem;
+    font-size: 0.35rem;
+
+
+}
+
+.pinglun .pingluntitle .pingluntitle1{
+    float: left;
+    width: 4.87rem;
+
+}
+.pinglun .pingluntitle .pingluntitle1 img{
+    height: 0.44rem;
+    width: 0.44rem;
+}
+
+.pinglun .pingluntitle .pingluntitle2{
+    float: left;
+
+}
+.pinglun .pingluncont{
+
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
 }
 
 
