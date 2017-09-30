@@ -115,3 +115,31 @@
     }
 
 })(window, window['lib'] || (window['lib'] = {}));
+
+
+/*√≈∆±‘§∂©*/
+var jian=document.getElementsByClassName('jian');
+var shu=document.getElementsByClassName('shu');
+var jia=document.getElementsByClassName('jia');
+for(var i=0;i<jia.length;i++){
+    jian[i].shu=shu[i];
+    jia[i].shu=shu[i];
+    jia[i].jian=jian[i];
+    jian[i].onclick=function(){
+        var n=parseInt(this.shu.innerHTML)
+        if(n>0){
+            n--;
+        }
+        if(n==0){
+            this.id='jian1';
+        }
+        this.shu.innerHTML=n;
+    };
+    jia[i].onclick=function(){
+        var n=parseInt(this.shu.innerHTML)
+        n++;
+        this.shu.innerHTML=n;
+        this.jian.id='jian2';
+    };
+}
+
