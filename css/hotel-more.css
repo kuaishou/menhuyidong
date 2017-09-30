@@ -166,6 +166,9 @@
 }
 .index .hotel-time  input{
     font-weight: bold;
+    width: 2.67rem;
+    height: 1.03rem;
+    background-color: #ffffff;
 }
 .index .hotel-time .hotel-time2{
     width: 5rem;
@@ -263,6 +266,19 @@
     line-height: 0.62rem;
     font-size: 0.35rem;
 }
+
+.index .yuzhimore .peitao{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    border-left: 0.04rem solid #ededed;
+}
+.index .yuzhimore .peitao span{
+    display: inline-block;
+    width: 1.74rem;
+    text-align:right ;
+}
+
 
 /*ÆÀÂÛ*/
 

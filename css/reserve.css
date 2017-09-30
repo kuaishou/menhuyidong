@@ -2,6 +2,7 @@
     width: 10rem;
     margin:0 auto;
     position: relative;
+    background-color: #f2f2f2;
 }
 .index .form{
     width: 10rem;
@@ -15,7 +16,25 @@
     font-size: 0.48rem;
     color: #333333;
 }
-
+.index .form .hotel1{
+    width: 10rem;
+    height: 2.4rem;
+    padding-left: 0.94rem;
+    line-height: 0.6rem;
+    background-color: #ffffff;
+    font-size: 0.48rem;
+    color: #333333;
+}
+.index .form .hotel1 .hotel01{
+    line-height: 1rem;
+    font-size: 0.48rem;
+    color: #333333;
+}
+.index .form .hotel1 .hotel02{
+    line-height: 1rem;
+    font-size: 0.43rem;
+    color: #333333;
+}
 .index .form .form-group1{
     width: 10rem;
     height: 1.6rem;
@@ -34,10 +53,17 @@
     color: #333333;
 }
 .index .form .form-group1 .to{
-
     font-size: 0.43rem;
     color: #333333;
     font-weight: bold;
+}
+.index .form .form-group1 .night{
+    font-size: 0.43rem;
+    color: #333333;
+    font-weight: bold;
+    float: right;
+    line-height: 1.6rem;
+    margin-right: 1.6rem;
 
 }
 .index .form .form-group1 .input1{
@@ -148,7 +174,9 @@
     background-color: #ffffff;
     border-bottom: 0.02rem solid #d9d9d9;
 }
-
+.index .form .hoteltop{
+    margin-top: 0.27rem;
+}
 
 .index .form .form-groupnamex{
     display: inline-block;

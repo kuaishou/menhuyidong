@@ -47,23 +47,20 @@
     width: 6rem;
     float: left;
     padding-left: 0.4rem;
-
     text-align: left;
 }
 .index .scenery-boday .scenery-bodayr .scenery-word1{
     border-top: 1px solid #cccccc;
     padding-top: 6px;
-    font-size: 0.37rem;
+    font-size: 0.43rem;
     font-weight: 700;
-    color: #5a5a5a;
+    color: #333333;
     line-height: 0.53rem;
 
 }
 .index .scenery-boday .scenery-bodayr .scenery-word2{
     font-size: 0.32rem;
     color: #5a5a5a;
-    line-height: 0.4rem;
-
 }
 .index .scenery-boday .scenery-bodayr .scenery-word4{
     width: 5.6rem;

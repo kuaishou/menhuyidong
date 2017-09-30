@@ -80,50 +80,120 @@ img{
     padding-left: 0px;
 }
 
-
-/*
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+.index{
+    position: absolute;
 }
-/!* HTML5 display-role reset for older browsers *!/
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, main {
+
+.header {
+    width: 10rem;
+    height: 1rem;
+}
+.header .header_box {
+    position: relative;
+    width: 10rem;
+    height: 1rem;
+    background-color: #1e9fe2;
+}
+
+.header form {
+    width: 10rem;
+    height: 1rem;
+    padding-left: 0.44rem;
+    padding-right: 2.8rem;
+    position: relative;
+}
+.header form .icon_search {
+    width: 0.48rem;
+    height: 0.48rem;
     display: block;
+    position: absolute;
+    top: 0.3rem;
+    left: 1.2rem;
 }
-body {
-    line-height: 1;
+.header form input {
+    background-color: #2292cc;
+    width: 6.67rem;
+    height: 0.67rem;;
+    border-radius: 0.67rem;
+    margin-top: 0.18rem;
+    padding-left: 1.74rem;
+    color: #ffffff;
+    font-size: 0.35rem;
 }
-ol, ul {
-    list-style: none;
+.header .login {
+    display: block;
+    width: 1.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: right;
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 1.47rem;
 }
-blockquote, q {
-    quotes: none;
+.header .line{
+    display: block;
+    width: 0.27rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 1.2rem;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+.header .register{
+    display: block;
+    width: 1.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: left;
+    font-size: 0.35rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
 
-*/
+}
+
+
+
+
+.topBar {
+    height: 1rem;;
+    width: 10rem;
+    background-color: #1e9fe1;
+    position: relative;
+    color: #ffffff;
+    font-size: 0.35rem;
+}
+.topBar .icon_back {
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+
+.topBar .top-title {
+    width: 10rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+/*.top{
+    width: 10rem;
+    height: 1rem;
+}*/
+
+
+
+
