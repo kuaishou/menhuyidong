@@ -83,7 +83,7 @@
     float: left;
     display: inline-block;
     width: 2.4rem;
-    height: 1.6rem;
+    height: 1.58rem;
     line-height: 1.6rem;
     background-color: #ffffff;
     font-size: 0.43rem;
@@ -139,7 +139,7 @@
 .index .form .form-group2 .pro-body-des-con .shu{
     display:block;
     width: 0.43rem;
-    height: 1.6rem;
+    height: 1.58rem;
     line-height: 1.6rem;
     text-align: center;
     background-color:#fff;
@@ -147,7 +147,7 @@
 }
 .index .form .form-group2 .pro-body-des-con .jia{
     width: 0.43rem;
-    height: 1.6rem;
+    height: 1.58rem;
     line-height: 1.6rem;
     text-align: center;
     font-size: 0.4rem;
@@ -188,6 +188,7 @@
     font-weight: 400;
 }
 .index .form .form-group4 input{
+    width: 6rem;
     line-height: 1.5rem;
     color: #5a5a5a;
     font-size: 0.43rem;
@@ -272,199 +273,13 @@
     -moz-transition: opacity 0.1s 0s, visibility 0s 0s;
     transition: opacity 0.1s 0s, visibility 0s 0s;
 }
-/*.cd-bouncy-nav-modal .cd-close {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 5%;
-    width: 44px;
-    height: 44px;
-    /!* image replacement *!/
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-    background: url("../img/cd-icon-close.svg") no-repeat center center;
-    -webkit-transform: scale(0) translateZ(0);
-    -moz-transform: scale(0) translateZ(0);
-    -ms-transform: scale(0) translateZ(0);
-    -o-transform: scale(0) translateZ(0);
-    transform: scale(0) translateZ(0);
-    -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s;
-    -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0.3s;
-    transition: transform 0.3s 0s, visibility 0s 0.3s;
-}*/
-/*.cd-bouncy-nav-modal.fade-in .cd-close {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: -webkit-transform 0.3s 0s, visibility 0.3s 0s;
-    -moz-transition: -moz-transform 0.3s 0s, visibility 0.3s 0s;
-    transition: transform 0.3s 0s, visibility 0.3s 0s;
-}*/
+
 @media only screen and (min-width: 1170px) {
     .cd-bouncy-nav-modal .cd-close {
         top: 60px;
     }
 }
 
-/*
-.cd-bouncy-nav {
-    position: absolute;
-    left: 50%;
-    top: 50vh;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    max-width: 300px;
-}
-.cd-bouncy-nav li {
-    width: 50%;
-    float: left;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-transform: translateY(100vh);
-    -moz-transform: translateY(100vh);
-    -ms-transform: translateY(100vh);
-    -o-transform: translateY(100vh);
-    transform: translateY(100vh);
-    text-align: center;
-}
-.is-visible .cd-bouncy-nav li {
-    /!* used to assign a tranlsateY value when the animation is over *!/
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-}
-.fade-in .cd-bouncy-nav li {
-    -webkit-animation: cd-move-in 0.4s;
-    -moz-animation: cd-move-in 0.4s;
-    animation: cd-move-in 0.4s;
-}
-.fade-out .cd-bouncy-nav li {
-    -webkit-animation: cd-move-out 0.4s;
-    -moz-animation: cd-move-out 0.4s;
-    animation: cd-move-out 0.4s;
-}
-.fade-in .cd-bouncy-nav li, .fade-out .cd-bouncy-nav li {
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-.fade-in .cd-bouncy-nav li:nth-of-type(2), .fade-out .cd-bouncy-nav li:nth-of-type(2) {
-    -webkit-animation-delay: 0.1s;
-    -moz-animation-delay: 0.1s;
-    animation-delay: 0.1s;
-}
-.fade-in .cd-bouncy-nav li:nth-of-type(3), .fade-out .cd-bouncy-nav li:nth-of-type(3) {
-    -webkit-animation-delay: 0.15s;
-    -moz-animation-delay: 0.15s;
-    animation-delay: 0.15s;
-}
-.fade-in .cd-bouncy-nav li:nth-of-type(4), .fade-out .cd-bouncy-nav li:nth-of-type(4) {
-    -webkit-animation-delay: 0.25s;
-    -moz-animation-delay: 0.25s;
-    animation-delay: 0.25s;
-}
-.fade-in .cd-bouncy-nav li:nth-of-type(5), .fade-out .cd-bouncy-nav li:nth-of-type(5) {
-    -webkit-animation-delay: 0.3s;
-    -moz-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-}
-.fade-in .cd-bouncy-nav li:nth-of-type(6), .fade-out .cd-bouncy-nav li:nth-of-type(6) {
-    -webkit-animation-delay: 0.4s;
-    -moz-animation-delay: 0.4s;
-    animation-delay: 0.4s;
-}
-.cd-bouncy-nav a {
-    display: inline-block;
-    min-width: 80px;
-    position: relative;
-    padding: 90px 20px 0;
-    margin-bottom: 30px;
-    color: #ffffff;
-}
-.cd-bouncy-nav a::before {
-    /!* icons *!/
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: auto;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background-color: #77BFA3;
-    background-image: url("../img/cd-category-icons.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-}
-.no-touch .cd-bouncy-nav a:hover::before {
-    background-color: #DC965A;
-}
-.cd-bouncy-nav li:nth-of-type(2) a::before {
-    background-position: -80px 0;
-}
-.cd-bouncy-nav li:nth-of-type(3) a::before {
-    background-position: -160px 0;
-}
-.cd-bouncy-nav li:nth-of-type(4) a::before {
-    background-position: -240px 0;
-}
-.cd-bouncy-nav li:nth-of-type(5) a::before {
-    background-position: -320px 0;
-}
-.cd-bouncy-nav li:nth-of-type(6) a::before {
-    background-position: -400px 0;
-}
-@media only screen and (min-width: 768px) {
-    .cd-bouncy-nav {
-        max-width: 450px;
-    }
-    .cd-bouncy-nav li {
-        width: 33.33%;
-        float: left;
-    }
-    .fade-in .cd-bouncy-nav li:nth-of-type(1), .fade-out .cd-bouncy-nav li:nth-of-type(1) {
-        -webkit-animation-delay: 0.1s;
-        -moz-animation-delay: 0.1s;
-        animation-delay: 0.1s;
-    }
-    .fade-in .cd-bouncy-nav li:nth-of-type(2), .fade-out .cd-bouncy-nav li:nth-of-type(2) {
-        -webkit-animation-delay: 0s;
-        -moz-animation-delay: 0s;
-        animation-delay: 0s;
-    }
-    .fade-in .cd-bouncy-nav li:nth-of-type(4), .fade-out .cd-bouncy-nav li:nth-of-type(4) {
-        -webkit-animation-delay: 0.3s;
-        -moz-animation-delay: 0.3s;
-        animation-delay: 0.3s;
-    }
-    .fade-in .cd-bouncy-nav li:nth-of-type(5), .fade-out .cd-bouncy-nav li:nth-of-type(5) {
-        -webkit-animation-delay: 0.25s;
-        -moz-animation-delay: 0.25s;
-        animation-delay: 0.25s;
-    }
-    .cd-bouncy-nav a {
-        margin-bottom: 50px;
-    }
-}
-*/
 
 @-webkit-keyframes cd-move-in {
     0% {
@@ -642,9 +457,55 @@
 }
 
 
+/*ÌØ²úÖ§¸¶*/
 
+.index .form .specialty-name{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    line-height: 1.6rem;
+    background-color: #ffffff;
+    font-size: 0.48rem;
+}
 
+.index .form .specialty-group1{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    margin-top: 0.27rem;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .specialty-group2{
+    width: 10rem;
+    height: 1.6rem;
+    padding-left: 0.94rem;
+    margin-top: 0;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
 
+.index .form .specialty-address{
+    width: 10rem;
+    height: 2.4rem;
+    padding-left: 0.94rem;
+    padding-top: 0.4rem;
+    background-color: #ffffff;
+    border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .specialty-address .form-groupnamex{
+    display: block;
+    float: left;
+    margin-top: 0;
+    line-height: 0.5rem;
+}
+.index .form .specialty-address .specialty-addressw{
+    width: 6rem;
+    height: 1.74rem;
+    line-height: 0.54rem;
+    color: #5a5a5a;
+    font-size: 0.43rem;
+}
 
 
 

@@ -310,10 +310,38 @@
 
 }
 .pinglun .pingluncont{
-
     color: #333333;
     line-height: 0.62rem;
     font-size: 0.35rem;
 }
+.pinglun .pingluncon-time{
+    color: #333333;
+    line-height: 0.62rem;
+    font-size: 0.35rem;
+    margin-left: 0.4rem;
+}
+.index .pinglun .pinglunimg{
+    padding-left: 0.27rem;
+}
+.index .pinglun .pinglunimg img{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.index .pinglun .pinglun-add{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    padding-left: 0.8rem;
+    border-top: 0.04rem dashed #f2f2f2 ;
+}
+.index .pinglun .pinglun-addback{
+    height: 1.07rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    border-top: 0.04rem dashed #f2f2f2;
+}
+
 
 

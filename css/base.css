@@ -48,9 +48,9 @@ input,textarea{
     border:0;
     outline: none;
     resize: none;
-
-    /*清楚ios浏览器默认的样式*/
-    -webkit-appearance: none;
+/*
+    /!*清楚ios浏览器默认的样式*!/
+    -webkit-appearance: none;*/
 }
 
 img{

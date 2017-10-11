@@ -77,3 +77,23 @@
     color: #5a5a5a;
     margin-right: 0.27rem;
 }
+
+/*特产列表*/
+
+.index .scenery-boday .scenery-bodayr .specialty{
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    margin-top: 0.28rem;
+    margin-bottom: 0.28rem;
+
+}
+.index .scenery-boday .scenery-bodayr .specialty .specialtyl{
+    float: left;
+}
+.index .scenery-boday .scenery-bodayr .specialty .specialtyl .specialtyl2{
+    color: #F57D02;
+}
+.index .scenery-boday .scenery-bodayr .specialty .specialtyr{
+    float: right;
+    margin-right: 0.28rem;
+}

@@ -9,7 +9,7 @@
     var flexible = lib.flexible || (lib.flexible = {});
 
     if (metaEl) {
-        console.warn('½«¸ù¾ÝÒÑÓÐµÄmeta±êÇ©À´ÉèÖÃËõ·Å±ÈÀý');
+        console.warn('å°†æ ¹æ®å·²æœ‰çš„metaæ ‡ç­¾æ¥è®¾ç½®ç¼©æ”¾æ¯”ä¾‹');
         var match = metaEl.getAttribute('content').match(/initial\-scale=([\d\.]+)/);
         if (match) {
             scale = parseFloat(match[1]);
@@ -36,7 +36,7 @@
         var isIPhone = win.navigator.appVersion.match(/iphone/gi);
         var devicePixelRatio = win.devicePixelRatio;
         if (isIPhone) {
-            // iOSÏÂ£¬¶ÔÓÚ2ºÍ3µÄÆÁ£¬ÓÃ2±¶µÄ·½°¸£¬ÆäÓàµÄÓÃ1±¶·½°¸
+            // iOSï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {
                 dpr = 3;
             } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)){
@@ -45,7 +45,7 @@
                 dpr = 1;
             }
         } else {
-            // ÆäËûÉè±¸ÏÂ£¬ÈÔ¾ÉÊ¹ÓÃ1±¶µÄ·½°¸
+            // ï¿½ï¿½ï¿½ï¿½ï¿½è±¸ï¿½Â£ï¿½ï¿½Ô¾ï¿½Ê¹ï¿½ï¿½1ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½
             dpr = 1;
         }
         scale = 1 / dpr;
@@ -117,7 +117,7 @@
 })(window, window['lib'] || (window['lib'] = {}));
 
 
-/*ÃÅÆ±Ô¤¶©*/
+/*ï¿½ï¿½Æ±Ô¤ï¿½ï¿½*/
 var jian=document.getElementsByClassName('jian');
 var shu=document.getElementsByClassName('shu');
 var jia=document.getElementsByClassName('jia');
