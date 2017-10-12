@@ -195,5 +195,42 @@ img{
 }*/
 
 
+/*µ×²¿µ¼º½À¸*/
+
+
+.index .footer{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.18rem;
+    line-height: 1.18rem;
+    border-top: 0.02rem solid #ababab;
+    background-color: #ffffff;
+}
+.index .footer ul li{
+    float: left;
+    width: 2.5rem;
+    text-align: center;
+}
+.index .footer ul li a{
+    display:block;
+    float: left;
+    width: 2.5rem;
+    height: 1.18rem;
+    text-align: center;
+}
+.index .footer ul li img{
+    display: block;
+    margin: 0.14rem auto;
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.index .footer ul li p{
+    margin-top: -0.5rem;
+}
+
+
+
+
 
 

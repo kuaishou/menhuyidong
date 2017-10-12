@@ -15,6 +15,10 @@
 </head>
 <body>
 <div class="index">
+    <header class="topBar clearfix">
+        <a href="../index.html" class="icon_back"><</a>
+        <p class="top-title">酒店列表</p>
+    </header>
 
 
     <!--景区-->
@@ -29,7 +33,6 @@
             <a href="hotel-more.html">
                 <div class="scenery-bodayl">
                     <img src="../images/hotel1.jpg" alt="酒店图"/>
-
                 </div>
                 <div class="scenery-bodayr">
                     <div class="clearfix scenery-wordx">
@@ -86,10 +89,43 @@
     </div>
 
 
+    <footer class="footer">
+        <ul>
+            <li><a href="../index.html"><img src="../images/home.jpg" alt="首页"/><p>首页</p></a></li>
+            <li><a href="my-order.html"><img src="../images/list-click.jpg" alt="首页"/><p>订单</p></a></li>
+            <li><a href="../index.html"><img src="../images/service.jpg" alt="首页"/><p>客服</p></a></li>
+            <li><a href="my.html"><img src="../images/my.jpg" alt="首页"/><p>我的</p></a></li>
+        </ul>
+    </footer>
+
+
+
+
 </div>
 <!--头部区域-->
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
 <script src="../js/index.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".scenery-title2").eq(
+                $(".scenery-title2").on('click', function () {
+                    if ($(this).find('span').hasClass("glyphicon-arrow-down")) {
+                        $(this).find('span').addClass("glyphicon-arrow-up");
+                        $(this).find('span').removeClass("glyphicon-arrow-down");
+                        $('#disOrderId').val(2);
+                        //正序排列
+                    } else {
+                        $(this).find('span').addClass("glyphicon-arrow-down");
+                        $(this).find('span').removeClass("glyphicon-arrow-up");
+                        $('#disOrderId').val(1);
+                    }
+                })
+        );
+    });
+
+
+
+</script>
 </body>
 </html>

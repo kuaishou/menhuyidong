@@ -32,9 +32,17 @@
 }
 .index .form .hotel1 .hotel02{
     line-height: 1rem;
+    font-size: 0.48rem;
+    color: #333333;
+    font-weight: 600;
+}
+.index .form .hotel1 .guidername{
+    line-height: 1rem;
     font-size: 0.43rem;
     color: #333333;
 }
+
+
 .index .form .form-group1{
     width: 10rem;
     height: 1.6rem;
@@ -42,6 +50,21 @@
     margin-top: 0.27rem;
     background-color: #ffffff;
     border-bottom: 0.02rem solid #d9d9d9;
+}
+.index .form .form-groupguide{
+    width: 10rem;
+    height: 1.07rem;
+    line-height: 1.07rem;
+    padding-left: 0.94rem;
+    font-size: 0.37rem;
+    background-color: #ffffff;
+    border-top: 0.02rem solid #d9d9d9;
+}
+.index .form .form-groupguide .form-groupguideprice{
+    display: inline-block;
+    width: 2.4rem;
+    height: 1.07rem;
+    color: #333333;
 }
 
 .index .form .form-group1 .form-group1name{

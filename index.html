@@ -27,9 +27,9 @@
                 <!--定义能调出搜索按钮的方式-->
                 <input type="search" placeholder="吉首智慧旅游">
             </form>
-            <a href="#" class="login">登录</a>
+            <a href="templates/login.html" class="login">登录</a>
             <span class="line">|</span>
-            <a href="#" class="register">注册</a>
+            <a href="templates/reg.html" class="register">注册</a>
         </div>
     </header>
 
@@ -46,22 +46,28 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="images/banner1.jpg" alt="banner">
-                <div class="carousel-caption">
-                    乾州古城
-                </div>
+                <a href="templates/scenery-more.html">
+                  <img src="images/banner1.jpg" alt="banner">
+                  <div class="carousel-caption">
+                      乾州古城
+                  </div>
+                </a>
             </div>
             <div class="item">
-                <img src="images/banner2.jpg" alt="轮播图">
-                <div class="carousel-caption">
-                   矮寨大桥
-                </div>
+                <a href="templates/scenery-more.html">
+                  <img src="images/banner2.jpg" alt="轮播图">
+                  <div class="carousel-caption">
+                     矮寨大桥
+                  </div>
+                </a>
             </div>
             <div class="item">
-                <img src="images/banner3.jpg" alt="轮播图">
-                <div class="carousel-caption">
-                    苗寨
-                </div>
+                <a href="templates/scenery-more.html">
+                   <img src="images/banner3.jpg" alt="轮播图">
+                   <div class="carousel-caption">
+                       苗寨
+                   </div>
+                </a>
             </div>
 
         </div>
@@ -85,11 +91,11 @@
             <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/scenery.html"> <img src="images/icon03.jpg" alt=""/> <p>景区</p> </a></li>
             <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/hotel.html"> <img src="images/icon04.jpg" alt=""/> <p>酒店</p> </a></li>
             <li class="col-lg-3 col-md-3  col-xs-3"><a href="#"> <img src="images/icon05.jpg" alt=""/> <p>美食</p> </a></li>
-            <li class="col-lg-3 col-md-3  col-xs-3"><a href="#"> <img src="images/icon06.jpg" alt=""/> <p>特产</p> </a></li>
-            <li class="col-lg-3 col-md-3  col-xs-3"><a href="#"> <img src="images/icon01.jpg" alt=""/> <p>预约导游</p> </a></li>
-            <li class="col-lg-3 col-md-3  col-xs-3"><a href="#"> <img src="images/icon02.jpg" alt=""/> <p>行程定制</p> </a></li>
-            <li class="col-lg-3 col-md-3  col-xs-3"><a href="#"> <img src="images/icon01.jpg" alt=""/> <p>景区</p> </a></li>
-            <li class="col-lg-3 col-md-3  col-xs-3"><a href="#"> <img src="images/icon02.jpg" alt=""/> <p>景区</p> </a></li>
+            <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/specialty.html"> <img src="images/icon06.jpg" alt=""/> <p>特产</p> </a></li>
+            <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/guide.html"> <img src="images/icon01.jpg" alt=""/> <p>预约导游</p> </a></li>
+            <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/custom.html"> <img src="images/icon02.jpg" alt=""/> <p>行程定制</p> </a></li>
+            <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/scenery.html"> <img src="images/icon03.jpg" alt=""/> <p>景区</p> </a></li>
+            <li class="col-lg-3 col-md-3  col-xs-3"><a href="templates/hotel.html"> <img src="images/icon04.jpg" alt=""/> <p>酒店</p> </a></li>
 
         </ul>
     </div>
@@ -98,7 +104,7 @@
         <div class="scenery-top">
             <p class="scenery-title1"></p>
             <p class="scenery-title2">景区推荐</p>
-            <a class="scenery-more" href="#">更多</a>
+            <a class="scenery-more" href="templates/scenery.html">更多</a>
         </div>
         <div class="scenery-boday">
             <a href="templates/scenery-more.html">
@@ -110,7 +116,7 @@
             <div class="scenery-bodayr">
                 <p class="money">¥144</p>
                 <p class="delete">¥188</p>
-                <a class="buy" href="#">立即预定</a>
+                <a class="buy" href="templates/scenery-more.html">立即预定</a>
             </div>
         </div>
         <div class="scenery-boday">
@@ -123,7 +129,7 @@
             <div class="scenery-bodayr">
                 <p class="money">¥144</p>
                 <p class="delete">¥188</p>
-                <a class="buy" href="#">立即预定</a>
+                <a class="buy" href="templates/scenery-more.html">立即预定</a>
             </div>
         </div>
         <div class="scenery-boday">
@@ -136,7 +142,7 @@
             <div class="scenery-bodayr">
                 <p class="money">¥144</p>
                 <p class="delete">¥188</p>
-                <a class="buy" href="#">立即预定</a>
+                <a class="buy" href="templates/scenery-more.html">立即预定</a>
             </div>
         </div>
     </div>
@@ -146,13 +152,13 @@
         <div class="scenery-top">
             <p class="scenery-titlehotel"></p>
             <p class="scenery-title2">酒店推荐</p>
-            <a class="scenery-more" href="#">更多</a>
+            <a class="scenery-more" href="templates/hotel.html">更多</a>
         </div>
         <div class="hotel-body">
             <ul class="row">
-                <li class="col-lg-4 col-md-4  col-xs-4"><a href=""><img src="images/hotel01.jpg" alt="酒店图片"/> <p>吉天酒店</p></a></li>
-                <li class="col-lg-4 col-md-4  col-xs-4"><a href=""><img src="images/hotel01.jpg" alt="酒店图片"/> <p>吉天酒店</p></a></li>
-                <li class="col-lg-4 col-md-4  col-xs-4"><a href=""><img src="images/hotel01.jpg" alt="酒店图片"/> <p>吉天酒店</p></a></li>
+                <li class="col-lg-4 col-md-4  col-xs-4"><a href="templates/hotel-more.html"><img src="images/hotel01.jpg" alt="酒店图片"/> <p>吉天酒店</p></a></li>
+                <li class="col-lg-4 col-md-4  col-xs-4"><a href="templates/hotel-more.html"><img src="images/hotel01.jpg" alt="酒店图片"/> <p>吉天酒店</p></a></li>
+                <li class="col-lg-4 col-md-4  col-xs-4"><a href="templates/hotel-more.html"><img src="images/hotel01.jpg" alt="酒店图片"/> <p>吉天酒店</p></a></li>
             </ul>
         </div>
     </div>
